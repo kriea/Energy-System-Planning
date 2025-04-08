@@ -1,0 +1,49 @@
+{
+  "nodes": [
+      {
+          "id": 1,
+          "type": "type_a",
+          "name": "Node1",
+          "x": 0,
+          "y": 0
+      },
+      {
+          "id": 2,
+          "type": "type_b",
+          "name": "Node2",
+          "x": 3,
+          "y": 4
+      },
+      {
+          "id": 3,
+          "type": "type_c",
+          "name": "Node3",
+          "x": 1,
+          "y": 1
+      },
+      {
+          "id": 4,
+          "type": "type_d",
+          "name": "Node4",
+          "x": 5,
+          "y": 2
+      }
+  ],
+  "edges": [
+      {
+          "start": 1,
+          "end": 2,
+          "weight": 5
+      },
+      {
+          "start": 1,
+          "end": 3,
+          "weight": 2
+      },
+      {
+          "start": 2,
+          "end": 4,
+          "weight": 3
+      }
+  ]
+}

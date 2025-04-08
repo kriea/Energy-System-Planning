@@ -1,0 +1,111 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "position": {
+                "x": 0.5333333333333333,
+                "y": 0.6666666666666667
+            },
+            "type": "consumer",
+            "label": "City"
+        },
+        {
+            "id": "node_2",
+            "position": {
+                "x": 0.6666666666666666,
+                "y": 0.46666666666666673
+            },
+            "type": "producer",
+            "label": "Coal"
+        },
+        {
+            "id": "node_3",
+            "position": {
+                "x": 0.26666666666666666,
+                "y": 0.4
+            },
+            "type": "consumer",
+            "label": "Industry"
+        },
+        {
+            "id": "node_4",
+            "position": {
+                "x": 0.39999999999999997,
+                "y": 0.2
+            },
+            "type": "producer",
+            "label": "Wind"
+        },
+        {
+            "id": "node_5",
+            "position": {
+                "x": 0.39999999999999997,
+                "y": 0.33333333333333337
+            },
+            "type": "battery",
+            "label": "Battery"
+        },
+        {
+            "id": "node_6",
+            "position": {
+                "x": 0.19999999999999998,
+                "y": 0.6666666666666667
+            },
+            "type": "consumer",
+            "label": "House"
+        },
+        {
+            "id": "node_7",
+            "position": {
+                "x": 0.4666666666666666,
+                "y": 0.5333333333333333
+            },
+            "type": "junction",
+            "label": "Junction"
+        }
+    ],
+    "edges": [
+        {
+            "id": "edge_1",
+            "source": "node_7",
+            "target": "node_1",
+            "sourceHandle": "output_bottom_0",
+            "targetHandle": "input_top_3"
+        },
+        {
+            "id": "edge_2",
+            "source": "node_7",
+            "target": "node_2",
+            "sourceHandle": "output_1",
+            "targetHandle": "output_left_0"
+        },
+        {
+            "id": "edge_3",
+            "source": "node_3",
+            "target": "node_7",
+            "sourceHandle": "input_bottom_0",
+            "targetHandle": "input_1"
+        },
+        {
+            "id": "edge_4",
+            "source": "node_4",
+            "target": "node_5",
+            "sourceHandle": "output_bottom_3",
+            "targetHandle": "input_1"
+        },
+        {
+            "id": "edge_5",
+            "source": "node_4",
+            "target": "node_3",
+            "sourceHandle": "output_bottom_3",
+            "targetHandle": "input_right_0"
+        },
+        {
+            "id": "edge_6",
+            "source": "node_7",
+            "target": "node_6",
+            "sourceHandle": "input_0",
+            "targetHandle": "input_right_3"
+        }
+    ]
+}

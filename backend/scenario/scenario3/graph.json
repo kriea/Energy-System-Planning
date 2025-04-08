@@ -1,0 +1,173 @@
+{
+    "nodes": [
+        {
+            "id": "node_6",
+            "position": {
+                "x": 0.47770700636942676,
+                "y": 0.15037593984962405
+            },
+            "type": "producer",
+            "label": "Solar"
+        },
+        {
+            "id": "node_7",
+            "position": {
+                "x": 0.05307855626326964,
+                "y": 0.5263157894736842
+            },
+            "type": "consumer",
+            "label": "City"
+        },
+        {
+            "id": "node_8",
+            "position": {
+                "x": 0.3184713375796178,
+                "y": 0.3007518796992481
+            },
+            "type": "consumer",
+            "label": "Industry"
+        },
+        {
+            "id": "node_9",
+            "position": {
+                "x": 0.583864118895966,
+                "y": 0.15037593984962405
+            },
+            "type": "battery",
+            "label": "Battery"
+        },
+        {
+            "id": "node_10",
+            "position": {
+                "x": 0.6369426751592356,
+                "y": 0.6015037593984962
+            },
+            "type": "producer",
+            "label": "Gas"
+        },
+        {
+            "id": "node_11",
+            "position": {
+                "x": 0.2653927813163482,
+                "y": 0.6015037593984962
+            },
+            "type": "consumer",
+            "label": "House"
+        },
+        {
+            "id": "node_12",
+            "position": {
+                "x": 0.37154989384288745,
+                "y": 0.6015037593984962
+            },
+            "type": "consumer",
+            "label": "House"
+        },
+        {
+            "id": "node_13",
+            "position": {
+                "x": 0.2653927813163482,
+                "y": 0.7518796992481203
+            },
+            "type": "producer",
+            "label": "Solar"
+        },
+        {
+            "id": "node_14",
+            "position": {
+                "x": 0.3333333333333333,
+                "y": 0.8
+            },
+            "type": "battery",
+            "label": "Battery"
+        },
+        {
+            "id": "node_15",
+            "position": {
+                "x": 0.4666666666666666,
+                "y": 0.46666666666666673
+            },
+            "type": "junction",
+            "label": "Junction"
+        }
+    ],
+    "edges": [
+        {
+            "id": "edge_1",
+            "source": "node_7",
+            "target": "node_15",
+            "sourceHandle": "input_right_0",
+            "targetHandle": "input_1"
+        },
+        {
+            "id": "edge_2",
+            "source": "node_15",
+            "target": "node_10",
+            "sourceHandle": "output_1",
+            "targetHandle": "output_top_0"
+        },
+        {
+            "id": "edge_3",
+            "source": "node_15",
+            "target": "node_12",
+            "sourceHandle": "output_bottom_1",
+            "targetHandle": "input_right_0"
+        },
+        {
+            "id": "edge_5",
+            "source": "node_13",
+            "target": "node_11",
+            "sourceHandle": "output_top_3",
+            "targetHandle": "input_bottom_3"
+        },
+        {
+            "id": "edge_6",
+            "source": "node_13",
+            "target": "node_14",
+            "sourceHandle": "output_right_3",
+            "targetHandle": "input_0"
+        },
+        {
+            "id": "edge_7",
+            "source": "node_8",
+            "target": "node_15",
+            "sourceHandle": "input_bottom_0",
+            "targetHandle": "input_top_1"
+        },
+        {
+            "id": "edge_8",
+            "source": "node_6",
+            "target": "node_8",
+            "sourceHandle": "output_left_0",
+            "targetHandle": "input_right_3"
+        },
+        {
+            "id": "edge_9",
+            "source": "node_6",
+            "target": "node_9",
+            "sourceHandle": "output_right_3",
+            "targetHandle": "input_0"
+        },
+        {
+            "id": "edge_9",
+            "source": "node_6",
+            "target": "node_9",
+            "sourceHandle": "output_right_3",
+            "targetHandle": "input_0"
+        },
+        {
+            "id": "edge_10",
+            "source": "node_6",
+            "target": "node_9",
+            "sourceHandle": "output_right_3",
+            "targetHandle": "input_0"
+        },
+        {
+            "id": "edge_11",
+            "source": "node_11",
+            "target": "node_12",
+            "sourceHandle": "input_right_0",
+            "targetHandle": "input_3"
+        }
+    ]
+}

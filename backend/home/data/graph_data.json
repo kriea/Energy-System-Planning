@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "position": {
+                "x": 753.5999999999999,
+                "y": 321.06666666666666
+            },
+            "type": "producer",
+            "label": "Nuclear Power"
+        },
+        {
+            "id": "node_2",
+            "position": {
+                "x": 300,
+                "y": 150
+            },
+            "type": "producer",
+            "label": "Solar Power"
+        },
+        {
+            "id": "node_3",
+            "position": {
+                "x": 450,
+                "y": 100
+            },
+            "type": "producer",
+            "label": "Solar Power"
+        },
+        {
+            "id": "node_4",
+            "position": {
+                "x": 450,
+                "y": 450
+            },
+            "type": "consumer",
+            "label": "Commercial"
+        },
+        {
+            "id": "node_5",
+            "position": {
+                "x": 250,
+                "y": 350
+            },
+            "type": "consumer",
+            "label": "Commercial"
+        },
+        {
+            "id": "node_6",
+            "position": {
+                "x": 753.5999999999999,
+                "y": 321.06666666666666
+            },
+            "type": "producer",
+            "label": "Nuclear Power"
+        }
+    ],
+    "edges": [
+        {
+            "id": "edge_1",
+            "source": "node_3",
+            "target": "node_1",
+            "color": "#000000",
+            "style": {
+                "strokeWidth": 5
+            }
+        },
+        {
+            "id": "edge_2",
+            "source": "node_2",
+            "target": "node_5",
+            "color": "#000000",
+            "style": {
+                "strokeWidth": 5
+            }
+        },
+        {
+            "id": "edge_3",
+            "source": "node_3",
+            "target": "node_4",
+            "color": "#000000",
+            "style": {
+                "strokeWidth": 5
+            }
+        }
+    ]
+}
