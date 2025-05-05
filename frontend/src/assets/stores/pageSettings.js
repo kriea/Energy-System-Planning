@@ -5,7 +5,7 @@ import DELang from "@/assets/languages/de.json";
 /**
  * Global store used to change the settings of the web application. Changes the following settings:
  * - Theme
- * - Langugage
+ * - Language
  * - Colorblindness filter
  */
 export const usedTheme = defineStore("usedTheme", {
