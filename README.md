@@ -13,7 +13,6 @@ This guide walks you through setting up the project with **Django** as the backe
 Before starting, ensure you have the following installed:
 - Python 3.12.7
 - Node.js and npm
-- Git
 
 ## Setup Instructions
 
